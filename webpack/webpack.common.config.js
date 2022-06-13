@@ -18,12 +18,12 @@ const plugins = [
 
 module.exports = {
 	entry: {
-		app: path.resolve(__dirname, "/src/index.jsx"),
+		app: path.resolve(__dirname, "/src/index.tsx"),
 	},
 	module: {
 		rules: [
 			{
-				test: /\.(js|jsx)$/,
+				test: /\.(js|jsx|tsx)$/,
 				exclude: /node_modules/,
 				use: {
 					loader: "babel-loader",
@@ -64,7 +64,7 @@ module.exports = {
 		],
 	},
 	resolve: {
-		extensions: [".js", ".jsx"],
+		extensions: [".js", ".jsx", ".tsx", ".ts"],
 	},
 	mode: env,
 	plugins,

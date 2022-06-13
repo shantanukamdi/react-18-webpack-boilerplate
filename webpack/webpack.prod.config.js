@@ -7,7 +7,7 @@ const plugins = [
 	new CompressionPlugin({
 		algorithm: "gzip",
 		filename: "[path].gz[query]",
-		test: /\.(js|jsx)$|\.css|.html$/,
+		test: /\.(js|jsx|tsx)$|\.css|.html$/,
 	}),
 ];
 

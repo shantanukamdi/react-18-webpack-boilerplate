@@ -46,6 +46,10 @@
   "devDependencies": {
     "@babel/preset-env": "^7.18.2",
     "@babel/preset-react": "^7.17.12",
+    "@babel/preset-typescript": "^7.17.12",
+    "@types/node": "^17.0.42",
+    "@types/react": "^18.0.12",
+    "@types/react-dom": "^18.0.5",
     "babel-loader": "^8.2.5",
     "better-npm-run": "^0.1.1",
     "clean-webpack-plugin": "^4.0.0",
@@ -59,6 +63,7 @@
     "less": "^4.1.2",
     "less-loader": "^11.0.0",
     "style-loader": "^3.3.1",
+    "typescript": "^4.7.3",
     "webpack": "^5.72.1",
     "webpack-bundle-analyzer": "^4.5.0",
     "webpack-cli": "^4.9.2",
